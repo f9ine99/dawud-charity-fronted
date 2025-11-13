@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mufti Dawud Charity Organization</title>
+    <meta name="description" content="Secure donation platform for Mufti Dawud Charity Organization. Make a difference with confidence through our verified and protected donation system." />
+    <meta name="author" content="Mufti Dawud Charity Organization" />
+    <meta name="keywords" content="charity, donation, secure, Ethiopia, Mufti Dawud, verified donations" />
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=(), usb=()" />
+
+    <!-- Content Security Policy (Development & Production) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com https://www.google.com https://maps.google.com https://maps.googleapis.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://www.google.com https://maps.google.com https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; connect-src 'self' ws://localhost:3000 wss://localhost:3000 ws: wss: https://admin.furi-cadaster.com https://www.admin.furi-cadaster.com https://www.google.com https://maps.google.com http://localhost http://localhost:8000 http://192.168.1.8 https://translation.googleapis.com; frame-src 'self' https://www.google.com https://maps.google.com https://*.google.com https://*.gstatic.com https://www.gstatic.com;" />
+
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="preconnect" href="https://cdn.tailwindcss.com" />
+    <link rel="preconnect" href="https://www.google.com" />
+    <link rel="preconnect" href="https://maps.google.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/index.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://muftidawudcharity.org/" />
+    <meta property="og:title" content="Mufti Dawud Charity Organization" />
+    <meta property="og:description" content="Mufti Dawud Charity Organization: Supporting communities in need through compassion, education, and humanitarian aid. Join us in making a positive impact and bringing hope to those who need it most." />
+    <meta property="og:image" content="/src/assets/images/logo.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://muftidawudcharity.org/" />
+    <meta name="twitter:title" content="Mufti Dawud Charity Organization" />
+    <meta name="twitter:description" content="Mufti Dawud Charity Organization: Supporting communities in need through compassion, education, and humanitarian aid. Join us in making a positive impact and bringing hope to those who need it most." />
+    <meta name="twitter:image" content="/src/assets/images/logo.jpg" />
+
+    <!-- Theme color -->
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="msapplication-TileColor" content="#0f172a" />
+
+    <!-- Security: Prevent caching of sensitive pages -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <!-- Security: Additional protection -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="index,follow" />
+  </head>
+
+  <body>
+    <!-- Loading Screen - Shows immediately -->
+    <div id="initial-loading" class="fixed inset-0 bg-gradient-to-br from-emerald-50 via-white to-teal-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 flex items-center justify-center z-50 transition-all duration-500 ease-in-out">
+      <div class="text-center max-w-md mx-auto px-6">
+        <!-- Logo and Brand -->
+        <div class="mb-8">
+          <div class="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+            <svg class="w-10 h-10 text-white animate-pulse" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <h1 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-2">
+            Mufti Dawud Charity
+          </h1>
+          <p class="text-gray-600 dark:text-gray-400 text-sm">
+            Loading your experience...
+          </p>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div class="relative mb-6">
+          <div class="w-16 h-16 border-4 border-emerald-200 dark:border-emerald-800 rounded-full animate-spin mx-auto">
+            <div class="absolute top-0 left-0 w-16 h-16 border-4 border-transparent border-t-emerald-500 rounded-full animate-spin"></div>
+          </div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <svg class="w-6 h-6 text-emerald-600 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2 mb-4">
+          <div id="loading-progress" class="bg-gradient-to-r from-emerald-500 to-teal-500 h-2 rounded-full transition-all duration-300 ease-out" style="width: 0%"></div>
+        </div>
+
+        <!-- Loading Text -->
+        <div id="loading-text" class="text-sm text-gray-600 dark:text-gray-400 mb-4">
+          Initializing...
+        </div>
+
+        <!-- Loading Dots -->
+        <div class="flex justify-center space-x-1 mt-4">
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+          <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Loading Screen Script -->
+    <script>
+      // Real-time loading progress that waits for React app to be ready
+      let progress = 0;
+      let reactAppReady = false;
+
+      // Listen for React app ready signal
+      window.addEventListener('react-app-ready', function() {
+        reactAppReady = true;
+        // Immediately complete the loading process
+        completeLoading();
+      });
+
+      // Function to check if React app is ready
+      function checkReactAppReady() {
+        // Check if the React root element has content (indicating React has mounted)
+        const rootElement = document.getElementById('root');
+        const appElement = rootElement?.querySelector('.min-h-screen');
+
+        if (appElement && appElement.children.length > 0) {
+          reactAppReady = true;
+          return true;
+        }
+        return false;
+      }
+
+      // Function to complete the loading process
+      function completeLoading() {
+        clearInterval(progressInterval);
+
+        // Show welcome message
+        setTimeout(() => {
+          const loadingText = document.getElementById('loading-text');
+          const progressBar = document.getElementById('loading-progress');
+
+          if (loadingText) loadingText.textContent = 'Welcome!';
+          if (progressBar) progressBar.style.width = '100%';
+
+          // Hide loading screen with smooth animation
+          setTimeout(() => {
+            const loadingScreen = document.getElementById('initial-loading');
+            if (loadingScreen) {
+              loadingScreen.style.opacity = '0';
+              loadingScreen.style.transform = 'translateY(-100%)';
+              setTimeout(() => {
+                loadingScreen.style.display = 'none';
+              }, 500);
+            }
+          }, 1500);
+        }, 300);
+      }
+
+      // Progressive loading simulation
+      const progressInterval = setInterval(() => {
+        // Increase progress more aggressively at first
+        if (progress < 60) {
+          progress += Math.random() * 20 + 5; // Faster initial progress
+        } else {
+          progress += Math.random() * 8 + 2; // Slower final progress
+        }
+
+        if (progress >= 100) {
+          progress = 100;
+
+          // Check if React app is actually ready before hiding loading screen
+          if (checkReactAppReady() || reactAppReady) {
+            completeLoading();
+          }
+        }
+
+        // Update progress bar
+        const progressBar = document.getElementById('loading-progress');
+        if (progressBar) {
+          progressBar.style.width = Math.min(progress, 100) + '%';
+        }
+
+        // Update loading text based on progress
+        const loadingText = document.getElementById('loading-text');
+        if (loadingText) {
+          if (progress < 30) {
+            loadingText.textContent = 'Initializing...';
+          } else if (progress < 60) {
+            loadingText.textContent = 'Loading components...';
+          } else if (progress < 90) {
+            loadingText.textContent = 'Preparing content...';
+          } else {
+            loadingText.textContent = 'Almost ready...';
+          }
+        }
+
+        // Check React app readiness more frequently as progress increases
+        if (progress > 80 && !reactAppReady) {
+          checkReactAppReady();
+        }
+      }, 50); // Faster updates for more responsive feel
+
+      // Fallback timeout in case React never loads (safety net)
+      setTimeout(() => {
+        if (!reactAppReady) {
+          clearInterval(progressInterval);
+          const loadingScreen = document.getElementById('initial-loading');
+          if (loadingScreen) {
+            loadingScreen.style.display = 'none';
+          }
+        }
+      }, 8000);
+    </script>
+  </body>
+</html>
