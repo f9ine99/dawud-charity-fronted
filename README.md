@@ -370,8 +370,3 @@ npm run build:dev      # Development mode
 - ESLint configured for React
 - Hot module replacement enabled in development
 - Security headers configured in Vite dev server
-
-## License
-
-[Specify your license here]
-
