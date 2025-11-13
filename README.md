@@ -82,7 +82,7 @@ Create `.env` file for production API configuration:
 ```env
 # API Configuration (for production builds)
 VITE_API_PROTOCOL=https
-VITE_API_DOMAIN=admin.furi-cadaster.com
+VITE_API_DOMAIN=exampledomain.com
 VITE_API_PORT=443
 ```
 
